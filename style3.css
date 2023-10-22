@@ -1,0 +1,53 @@
+/* Styles pour la page index3.html */
+
+/* Fond et couleurs de texte */
+body {
+    background-color: rgb(238, 230, 216);
+    color: rgb(56, 68, 84);
+    font-family: Helvetica;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Styles pour les titres */
+h1 {
+    color: #F27438;
+    font-size: 44px;
+}
+
+/* Styles pour les paragraphes et les options de paiement */
+p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-option {
+    margin: 10px;
+}
+
+/* Styles pour les boutons */
+a.btn-primary {
+    background-color: #F27438;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a.btn-primary:hover {
+    background-color: #FFA500;
+}
+

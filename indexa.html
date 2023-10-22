@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="MyMagasin - Faire ses courses en ligne">
+    <meta name="author" content="Votre nom">
+    <link rel="stylesheet" href="style2.css">
+    <title>MyMagasin - Faire ses courses en ligne</title>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.jpg" alt="Flavio Carli" style="width:75px;">
+        <h1>MyMagasin - Faire ses courses en ligne</h1>
+        <h2>Sélectionnez un magasin</h2>
+        <form action="page_de_paiement.html" method="post">
+            <select name="magasin" id="magasin">
+                <option value="magasin1">Magasin 1</option>
+                <option value="magasin2">Magasin 2</option>
+                <!-- Ajoutez plus d'options de magasin si nécessaire -->
+            </select>
+            <h2>Indiquez les articles que vous souhaitez acheter :</h2>
+            <div class="article">
+                <label for="article1">Article 1 :</label>
+                <input type="text" name="article1" id="article1">
+            </div>
+            <div class="article">
+                <label for="article2">Article 2 :</label>
+                <input type="text" name="article2" id="article2">
+            </div>
+            <!-- Vous pouvez ajouter plus de champs pour les articles ici -->
+            <button type="button" onclick="window.location.href='indexb.html'">Valider et passer au paiement</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+.card-white {
+    background-color: #F7F6CF;
+    border: 6px solid #F9968B;
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #F27438;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #FFA500;
+}
+
+body {
+    background-color: rgb(238, 230, 216);
+    color: rgb(235, 172, 162);
+    font-family: 'Your Handwritten Font', cursive;
+    font-size: 22px;
+}
+
+h1, h2 {
+    color: blue;
+    font-family: Helvetica;
+}
+
+h1 {
+    color: #F27438;
+    font-size: 44px;
+}
+
+h2 {
+    color: #0d4537;
+    font-family: Courier;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: #FFA500;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline > li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto; /* Pour centrer horizontalement */
+    max-width: 100%; /* Pour s'assurer que l'image ne dépasse pas la largeur de son parent */
+}
+
+.image-container {
+    text-align: center;
+    padding: 20px 0; /* Espacement supérieur et inférieur */
+}
+
